@@ -12,16 +12,19 @@ int main(){
 			cnt=0;
 			int k;
 			k=s[i]-'0'; 
+			//数字
 			if(k>=0&&k<=9)
 			{
 				a++;
 				continue;
 			} 
+			//小写字母
 			else if(k>=17&&k<=42) 
 			{
 				b++;
 				continue;
 			}
+			//大写字母
 			else if(k>=49&&k<=74)
 			{
 				c++;
@@ -56,6 +59,7 @@ int main(){
 		//将字符串反转并输出
 	}
 	cout<<endl;
+	//密码强度的判断
 	cout<<"密码强度为：";
 	if(s.length()>=8&&a>0&&b>0&&c>0)
 	{
