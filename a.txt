@@ -2,7 +2,7 @@
 #include<cstring>
 #include<Ctime>
 #include<cstdlib>
-using namespace std;
+using namespace std;//123
 //容错处理 
 void wrong(char *s){
 	int cnt=1; 	
